@@ -26,8 +26,7 @@ public class Note {
 	@SuppressWarnings("unused")
 	private Note(){}
 	
-	public Note(Long id, String name, String text, NoteType type) {
-		this.id = id;
+	public Note(String name, String text, NoteType type) {
 		this.name = name;
 		this.text = text;
 		this.type = type;
